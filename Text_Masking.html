@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Masking</title>
+    <link
+      rel="shortcut icon"
+      href="IMAGES/icons8-text-color-16.png"
+      type="image/x-icon"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+      * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        background: #151f28;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Archivo Black", sans-serif;
+        letter-spacing: 2px;
+      }
+
+      h1 {
+        text-transform: uppercase;
+        background-size: cover;
+        background-position: center;
+        background-image: url("IMAGES/img.png");
+        font-size: 200px;
+        color: transparent;
+        --webkit-text-fill-color: text;
+        background-clip: text;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Abdul</h1>
+  </body>
+</html>
